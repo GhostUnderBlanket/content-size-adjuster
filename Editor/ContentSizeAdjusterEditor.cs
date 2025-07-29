@@ -35,17 +35,9 @@ namespace BlanketGhost.Tools.Editor
             EditorGUILayout.Space();
             EditorGUILayout.PropertyField(childAdjusters, true);
             EditorGUILayout.Space();
-
-            EditorGUILayout.BeginHorizontal();
+            if (GUILayout.Button("Get Child Adjusters", GUILayout.Height(20), GUILayout.Width(buttonWidth)))
             {
-                if (GUILayout.Button("Adjust Content Size", GUILayout.Height(20), GUILayout.Width(buttonWidth)))
-                {
-                    contentSizeAdjuster.AdjustContentSize();
-                }
-                if (GUILayout.Button("Get Child Adjusters", GUILayout.Height(20), GUILayout.Width(buttonWidth)))
-                {
-                    contentSizeAdjuster.GetChildAdjusters();
-                }
+                contentSizeAdjuster.GetChildAdjusters();
             }
             EditorGUILayout.EndHorizontal();
 
