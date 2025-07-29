@@ -1,0 +1,18 @@
+{
+    "name": "BlanketGhost.ContentSizeAdjuster.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:428549587912f1a45b77458c8004d04e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
