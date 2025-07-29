@@ -2,7 +2,7 @@
     "name": "BlanketGhost.ContentSizeAdjuster.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:428549587912f1a45b77458c8004d04e"
+        "GUID:2c0c9b8983537f54689210db9c8c3f11"
     ],
     "includePlatforms": [
         "Editor"
